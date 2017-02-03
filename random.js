@@ -5,14 +5,22 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-    makeRect(0,0,1000,1000,"blue")
-    makeEllipse(100,46,20,25,"firebrick")
-    makeEllipse(100,45,20,5,"brown")
+    makeRect(0,0,1000,1000,"lightblue")
+    makeEllipse(100,46,20,25,"white")
+    makeEllipse(100,45,15,5,"brown")
     makeCircle(100,50,5,"black")
+    makeCircle(110,35,4,"black")
+    makeCircle(108,33,1,"white")
+    makeCircle(111,36,2,"white")
     makeCircle(90,35,4,"black")
     makeCircle(88,33,1,"white")
     makeCircle(91,36,2,"white")
- 
+    makeEllipse(88.5,52,5,10,"brown")
+    makeEllipse(111.5,52,5,10,"brown")
+    makeCircle(100,62,2,"red")
+    makeLine(100,50,100,60,"black",3,3)
+    makeLine(100,59,90,65,"black",3,3)
+    makeLine(100,59,110,65,"black",3,3)
 }
 
 
@@ -20,7 +28,13 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-      makeCircle(100,50,10,"blue")
+    makeRect(0,0,1000,1000,"lightgreen")  
+    makeCircle(100,50,30,"brown")
+    makeCircle(87,45,15,"#F2913D")
+    makeCircle(112,45,15,"#F2913D")
+    makeCircle(100,60,20,"#F2913D")
+    makeEllipse(86,40,5,7,"black")
+    makeEllipse(116,40,5,7,"black")
 }
 
 
