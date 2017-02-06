@@ -35,6 +35,17 @@ function createSecondScene() {
     makeCircle(100,60,20,"#F2913D")
     makeEllipse(86,40,5,7,"black")
     makeEllipse(116,40,5,7,"black")
+    makeEllipse(100,55,10,6,"black")
+    makeEllipse(100,56.5,8,6,"#F2913D")
+    makeEllipse(97,55,2,1,"black")
+    makeEllipse(97,55.5,1,0.5,"#F2913D")
+    makeEllipse(102,55,2,1,"black")
+    makeEllipse(102,55.5,1,0.5,"#F2913D")
+    makeEllipse(100,70,15,5,"black")
+    makeEllipse(105,75,4,5,"red")
+    makeEllipse(101,72,7,3,"red")
+    makeLine(98, 72, 104, 72.5, "black",0.5)
+    makeLine(104, 72.5, 106, 79,"black",0.5)
 }
 
 
