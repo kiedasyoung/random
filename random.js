@@ -5,7 +5,27 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
+    var number = Math.random()
+    if (number > 0.5){
     makeRect(0,0,1000,1000,"lightblue")
+    makeEllipse(100,46,20,25,"white")
+    makeEllipse(90,23,7,5,"white")
+    makeEllipse(100,45,15,5,"brown")
+    makeCircle(100,50,5,"black")
+    makeCircle(110,35,4,"black")
+    makeCircle(108,33,1,"white")
+    makeCircle(111,36,2,"white")
+    makeCircle(90,35,4,"black")
+    makeCircle(88,33,1,"white")
+    makeCircle(91,36,2,"white")
+    makeEllipse(88.5,52,5,10,"brown")
+    makeEllipse(111.5,52,5,10,"brown")
+    makeCircle(100,62,2,"red")
+    makeLine(100,50,100,60,"black",3,3)
+    makeLine(100,59,90,65,"black",3,3)
+    makeLine(100,59,110,65,"black",3,3)
+    }else{
+    makeRect(0,0,1000,1000,"black")
     makeEllipse(100,46,20,25,"white")
     makeEllipse(100,45,15,5,"brown")
     makeCircle(100,50,5,"black")
@@ -21,6 +41,7 @@ function createFirstScene() {
     makeLine(100,50,100,60,"black",3,3)
     makeLine(100,59,90,65,"black",3,3)
     makeLine(100,59,110,65,"black",3,3)
+    }
 }
 
 
@@ -70,6 +91,7 @@ function createThirdScene() {
     makeRect(100.5,80,3,5,"white")
     makeEllipse(96,65,2,4,"black")
     makeEllipse(103,65,2,4,"black")
+    makeEllipse(110,48,10,5,"lightgray")
 }
 
 
