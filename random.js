@@ -7,10 +7,15 @@ var namespace = "http://www.w3.org/2000/svg"
 function createFirstScene() {
     var number = Math.random()
     if (number > 0.5){
-    makeRect(0,0,1000,1000,"lightblue")
+    makeRect(0,0,1000,1000,"blue")
+    makeEllipse(86,23,10,5,"lightgray")
+    makeEllipse(100,68,15,5,"red")
+    makeCircle(100,75,5,"gold")
+    makeEllipse(78.5,40,5,20,"lightgray")
+    makeEllipse(112,23,10,5,"lightgray")
+    makeEllipse(119.5,40,5,20,"lightgray")
     makeEllipse(100,46,20,25,"white")
-    makeEllipse(90,23,7,5,"white")
-    makeEllipse(100,45,15,5,"brown")
+    makeEllipse(100,45,15,5,"lightgray")
     makeCircle(100,50,5,"black")
     makeCircle(110,35,4,"black")
     makeCircle(108,33,1,"white")
@@ -18,14 +23,18 @@ function createFirstScene() {
     makeCircle(90,35,4,"black")
     makeCircle(88,33,1,"white")
     makeCircle(91,36,2,"white")
-    makeEllipse(88.5,52,5,10,"brown")
-    makeEllipse(111.5,52,5,10,"brown")
+    makeEllipse(88.5,52,5,10,"lightgray")
+    makeEllipse(111.5,52,5,10,"lightgray")
     makeCircle(100,62,2,"red")
     makeLine(100,50,100,60,"black",3,3)
     makeLine(100,59,90,65,"black",3,3)
     makeLine(100,59,110,65,"black",3,3)
     }else{
     makeRect(0,0,1000,1000,"black")
+    makeEllipse(86,23,10,5,"brown")
+    makeEllipse(78.5,40,5,20,"brown")
+    makeEllipse(112,23,10,5,"brown")
+    makeEllipse(119.5,40,5,20,"brown")
     makeEllipse(100,46,20,25,"white")
     makeEllipse(100,45,15,5,"brown")
     makeCircle(100,50,5,"black")
@@ -41,6 +50,16 @@ function createFirstScene() {
     makeLine(100,50,100,60,"black",3,3)
     makeLine(100,59,90,65,"black",3,3)
     makeLine(100,59,110,65,"black",3,3)
+    makeLine(20,30,60,45,"white",10)
+    makeCircle(20,35,7,"white")
+    makeCircle(25,26,7,"white")
+    makeCircle(60,51,7,"white")
+    makeCircle(64,42,7,"white")
+    makeLine(140,45,180,30,"white",10)
+    makeCircle(140,40,7,"white")
+    makeCircle(143,49,7,"white")
+    makeCircle(180,25,7,"white")
+    makeCircle(183,33,7,"white")
     }
 }
 
@@ -49,6 +68,8 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
+    var number = Math.random()
+    if (number > 0.5){
     makeRect(0,0,1000,1000,"lightgreen")  
     makeCircle(77,35,15,"brown")
     makeCircle(77,35,10,"#F2913D")
@@ -71,6 +92,35 @@ function createSecondScene() {
     makeEllipse(101,72,7,3,"red")
     makeLine(98, 72, 104, 72.5, "black",0.5)
     makeLine(104, 72.5, 106, 79,"black",0.5)
+    }else{
+makeRect(0,0,1000,1000,"#26ff29")  
+    makeCircle(77,35,15,"brown")
+    makeCircle(77,35,10,"#F2913D")
+    makeCircle(123,35,15,"brown")
+    makeCircle(123,35,10,"#F2913D")
+    makeCircle(100,50,30,"brown")
+    makeCircle(87,45,15,"#F2913D")
+    makeCircle(112,45,15,"#F2913D")
+    makeCircle(100,60,20,"#F2913D")
+    makeEllipse(86,40,5,7,"black")
+    makeEllipse(116,40,5,7,"black")
+    makeEllipse(100,55,10,6,"black")
+    makeEllipse(100,56.5,8,6,"#F2913D")
+    makeEllipse(97,55,2,1,"black")
+    makeEllipse(97,55.5,1,0.5,"#F2913D")
+    makeEllipse(102,55,2,1,"black")
+    makeEllipse(102,55.5,1,0.5,"#F2913D")
+    makeEllipse(100,70,15,5,"black")
+    makeEllipse(100,69,15,5,"#F2913D")
+    makeRect(40,50,10,30,"brown")
+    makeCircle(45,45,10,"green")
+    makeCircle(37,53,7,"green")
+    makeCircle(50,49,9,"green")
+    makeRect(150,40,7,29,"brown")
+    makeCircle(149,30,11,"green")
+    makeCircle(157,35,9,"green")
+    makeCircle(148,40,7,"green")
+    }
 }
 
 
@@ -78,6 +128,8 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
+    var number = Math.random()
+    if (number > 0.5){
     makeRect(0,0,1000,1000,"brown")  
     makeEllipse(92,55,5,20,"lightgray")
     makeEllipse(92,55,3,18,"pink")
@@ -92,6 +144,29 @@ function createThirdScene() {
     makeEllipse(96,65,2,4,"black")
     makeEllipse(103,65,2,4,"black")
     makeEllipse(110,48,10,5,"lightgray")
+    makeCircle(90,60,3,"red")
+    makeCircle(85,63,4,"red")
+    makeCircle(95,57,4,"red")
+    }else{
+     makeRect(0,0,1000,1000,"#f142f4")  
+    makeEllipse(92,55,5,20,"lightgray")
+    makeEllipse(92,55,3,18,"pink")
+    makeEllipse(103,55,5,10,"lightgray")
+    makeEllipse(103,55,3,8,"pink")
+    makeCircle(100,75,20,"lightgray")
+    makeEllipse(100,75,10,5,"gray")
+    makeEllipse(100,73,3,2,"pink")
+    makeLine(100, 80, 100, 85, "black",0.5)
+    makeRect(96.5,80,3,5,"white")
+    makeRect(100.5,80,3,5,"white")
+    makeEllipse(96,65,2,4,"black")
+    makeEllipse(103,65,2,4,"black")
+    makeEllipse(110,48,10,5,"lightgray")
+    makeCircle(50,50,10,"orange")
+    makePolygon("40,50 60,50 50,90","orange")
+    makeCircle(150,70,10,"orange")
+    makePolygon("140,70 160,70 150,40","orange")
+    }
 }
 
 

@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
 #button-container {
     text-align: center;
 }
 
 h1 {
     text-align: center;
+    font-family:Pacifico;
+    color:crimson;
+}
+body{
+background-color: darkturquoise;
 }
